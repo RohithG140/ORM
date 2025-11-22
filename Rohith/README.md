@@ -33,7 +33,7 @@ Execute Django admin using localhost and create details for 10 entries
 
 ## PROGRAM
 
-'''
+"""
 model.py 
 
 from django.db import models
@@ -58,7 +58,7 @@ from .models import (amazon,amazonAdmin)
 admin.site.register(amazon,amazonAdmin)
 
 
-'''
+"""
 
 ## OUTPUT
 ![alt text](<Screenshot (14).png>)
