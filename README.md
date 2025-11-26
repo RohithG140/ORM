@@ -31,6 +31,7 @@ Apply the migration files of the created app to the database
 Execute Django admin using localhost and create details for 10 entries
 
 ## PROGRAM
+~~~
 model.py
 from django.db import models
 from django.contrib import admin
@@ -49,7 +50,7 @@ admin.py
 from django.contrib import admin
 from .models import (amazon,amazonAdmin)
 admin.site.register(amazon,amazonAdmin)
-
+~~~
 ## OUTPUT
 <img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/9f402b1c-af13-4ee6-aa21-d6823f97deb0" />
 
